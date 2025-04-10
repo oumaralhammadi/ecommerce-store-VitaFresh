@@ -1,13 +1,13 @@
 # E-Commerce Store - Frontend 
 
-###📌Introduction
+###  📌Introduction
 
 This is a simple e-commerce store developed using HTML, CSS, and JavaScript only, without any external frameworks. The store includes product listing, product details, and a shopping cart with localStorage support.
 
 
 ---
 
-###🚀 Features
+###  🚀 Features
 
 Dynamic product display using JavaScript.
 
@@ -21,7 +21,7 @@ Responsive design for all devices.
 
 ---
 
-###📁 Project Structure
+###  📁 Project Structure
 ```
 ecommerce-store/
 │── assets/                              # Images, fonts, and icons
@@ -40,7 +40,7 @@ ecommerce-store/
 
 ---
 
-###🔧 How to Use
+###  🔧 How to Use
 
 1. Clone the project
 
@@ -55,7 +55,7 @@ ecommerce-store/
 
 ---
 
-###📌 Future Improvements
+###  📌 Future Improvements
 
 Add user authentication.
 
@@ -67,7 +67,7 @@ Enhance user experience with additional CSS and JavaScript effects.
 
 ---
 
-###🛠 Technologies Used
+###  🛠 Technologies Used
 
 HTML: Structure the content.
 
@@ -79,14 +79,14 @@ JavaScript: Interactivity and cart management.
 
 ---
 
-###👨‍💻 Developer
+###  👨‍💻 Developer
 
 This project was developed by [Omar Alhammadi]. Feel free to reach out via [https://github.com/oumaralhammadi] for any questions or improvements.
 
 
 ---
 
-###📜 License
+###  📜 License
 
 This project is open-source and can be used for educational and development purposes freely.
 
