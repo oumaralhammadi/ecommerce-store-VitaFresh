@@ -22,7 +22,7 @@ Responsive design for all devices.
 ---
 
 📁 Project Structure
-
+```
 ecommerce-store/
 │── assets/                     # Images, fonts, and icons
 │── css/                        # Stylesheets
@@ -36,7 +36,7 @@ ecommerce-store/
 │── cart.html                   # Shopping cart page
 │── checkout.html               # Checkout page
 │── README.md                   # This documentation file
-
+```
 
 ---
 
