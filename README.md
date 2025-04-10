@@ -2,20 +2,20 @@
 
 ###📌Introduction
 
-    This is a simple e-commerce store developed using HTML, CSS, and JavaScript only, without any external frameworks. The store includes product listing, product details, and a shopping cart with localStorage support.
+This is a simple e-commerce store developed using HTML, CSS, and JavaScript only, without any external frameworks. The store includes product listing, product details, and a shopping cart with localStorage support.
 
 
 ---
 
 ###🚀 Features
 
-    Dynamic product display using JavaScript.
-    
-    Add products to the shopping cart with localStorage support.
-    
-    Remove items from the cart.
-    
-    Responsive design for all devices.
+Dynamic product display using JavaScript.
+
+Add products to the shopping cart with localStorage support.
+
+Remove items from the cart.
+
+Responsive design for all devices.
 
 
 
@@ -42,13 +42,13 @@ ecommerce-store/
 
 ###🔧 How to Use
 
-    1. Clone the project
-    
-        git clone https://github.com/oumaralhammadi/ecommerce-store-VitaFresh.git
-    
-    2. Open index.html in your browser.
-    
-    3. Explore the features and add products to the cart.
+1. Clone the project
+
+    git clone https://github.com/oumaralhammadi/ecommerce-store-VitaFresh.git
+
+2. Open index.html in your browser.
+
+3. Explore the features and add products to the cart.
 
 
 
@@ -57,11 +57,11 @@ ecommerce-store/
 
 ###📌 Future Improvements
 
-    Add user authentication.
-    
-    Integrate with a real API for product data.
-    
-    Enhance user experience with additional CSS and JavaScript effects.
+Add user authentication.
+
+Integrate with a real API for product data.
+
+Enhance user experience with additional CSS and JavaScript effects.
 
 
 
@@ -69,11 +69,11 @@ ecommerce-store/
 
 ###🛠 Technologies Used
 
-    HTML: Structure the content.
-    
-    CSS: Style and responsiveness.
-    
-    JavaScript: Interactivity and cart management.
+HTML: Structure the content.
+
+CSS: Style and responsiveness.
+
+JavaScript: Interactivity and cart management.
 
 
 
@@ -81,14 +81,14 @@ ecommerce-store/
 
 ###👨‍💻 Developer
 
-    This project was developed by [Omar Alhammadi]. Feel free to reach out via [https://github.com/oumaralhammadi] for any questions or improvements.
+This project was developed by [Omar Alhammadi]. Feel free to reach out via [https://github.com/oumaralhammadi] for any questions or improvements.
 
 
 ---
 
 ###📜 License
 
-    This project is open-source and can be used for educational and development purposes freely.
+This project is open-source and can be used for educational and development purposes freely.
 
 ---
 **for visited**: https://oumaralhammadi.github.io/ecommerce-store-VitaFresh/
