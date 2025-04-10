@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaFresh-Checkout</title>
+    <!-- Files CSS Custem -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- CDN swiper  -->
+    <link rel="stylesheet" href="./assets/css/splide-core.min.css"/>
+</head>
+<body>
+    <!-- start section header -->
+    <header>
+        <div class="headerTop">
+            <div class="container">
+                <div class="logo">
+                    <h2 class="logoName"><span>Vita</span>Fresh</h2>
+                </div>
+                <div class="inputSearsh">
+                    <select name="" id="">
+                        <option>All Categories</option>
+                        <option>Groceries</option>
+                        <option>Drinks</option>
+                        <option>Chocolates</option>
+                    </select>
+                    <input type="text" name="searsh" placeholder="Search Item">
+                </div>
+                <div class="lang-theme">
+                    <button class="theme-toggle" aria-label="تبديل الثيم">
+                        <i class="fa-solid fa-sun icon sun  srhe"></i>
+                        <i class="fa-solid fa-moon icon moon sdb"></i>
+                    </button>
+                    <div class="chak">
+                        <i onclick="icon_box_Checkout()" id="chak1" class="fa-solid fa-bag-shopping icon"></i>
+                        <i onclick="icon_box_Search()" id="chak2" class="fa-solid fa-search icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="container">
+                <nav>
+                    <a href="index.html">All Products</a>
+                    <a href="#">free delivery</a>
+                    <a href="#">blog</a>
+                    <a href="#">organic</a>
+                    <a href="#">offeds</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ################################################################### -->
+    <!-- start box Checkout  -->
+    <div class="boxCheckout">
+        <div><i onclick="icon_box_Checkout()" id="icon-close" class="fa-solid fa-close icon-close icon"></i></div>
+        <div class="boxCheckout-title">
+            <h4><span>Your cart</span><span class="boxCheckout-title-num">2</span></h4>
+            <ul>
+                <li class="item-shop">
+                    <div class="item-shop-one">
+                        <p>Growers cider</p>
+                        <small>Brief description</small>
+                    </div>
+                    <span>$12</span>
+                </li>
+                <li class="item-shop">
+                    <div class="item-shop-one">
+                        <p>Fresh grapes</p>
+                        <small>Brief description</small>
+                    </div>
+                    <span>$8</span>
+                </li>
+                <li class="total-shop">
+                    <span>Total (USD)</span>
+                    <strong>$20</strong>
+                </li>
+            </ul>
+            <a href="checkout.html"><button type="submit">Continue to checkout</button></a>
+        </div>
+    </div>
+    <!-- end box Checkout  -->
+    <!-- start box Search  -->
+    <div class="boxSearch">
+        <div class=""><i onclick="icon_box_Search()" id="icon-close" class="fa-solid fa-close icon-close icon"></i></div>
+        <div class="form-search">
+            <h4 class=""><span>Search</span></h4>
+            <form role="search" action="" method="get">
+                <input type="email" placeholder="What are you looking for?">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <!-- end box Search  -->
+    <!-- ################################################################### -->
+    <!-- start land Checkout -->
+    <section class="Checkouthead">
+        <div class="landCheckout">
+            <h1>Checkout </h1>
+        </div>
+    </section>
+    <!-- end land Checkout -->
+    <!-- start Checkout -->
+    <section class="checkout">
+        <div class="container">
+            <div class="left-checkout">
+                <h2 class="title-section"><i class="fa-solid fa-forward"></i> Billing Details</h2>
+                <lebal for="firstName">First Name <span>*</span></lebal>
+                <input id="firstName" type="text" name="firstName">
+                <lebal for="lastName">Last Name <span>*</span></lebal>
+                <input id="lastName" type="text" name="lastName">
+                <lebal for="country">Country / Redion<span>*</span></lebal>
+                <input  id="country" type="text" name="country">
+                <lebal for="street">Street Address<span>*</span></lebal>
+                <input  id="street" type="text" name="street">
+                <lebal for="zipCode">Zip Code<span>*</span></lebal>
+                <input  id="zipCode" type="text" name="zipCode">
+                <lebal for="phone">Phone<span>*</span></lebal>
+                <input  id="phone" type="number" name="phone">
+                <lebal for="email">Email Address<span>*</span></lebal>
+                <input  id="email" type="email" name="email">
+            </div>
+            <div class="right-checkout">
+                <h2 class="title-section"><i class="fa-solid fa-forward"></i> Additional Information</h2>
+                <lebal for="notes">Order notes</lebal>
+                <textarea id="notes" name="notes" ></textarea>
+                <h3 class="title-section">Cart Totals</h3>
+                <div class="total">
+                    <ul>
+                        <li><span>SUBTOTAL</span><span>$123,32.00</span></li>
+                        <li><span>TOTAL</span><span>$2,732.00</span></li>
+                    </ul>
+                </div>
+                <div class="chekradio">
+                    <div class="payment-options">
+                        <label class="custom-radio">
+                            <input type="radio" name="payment" value="cod">
+                            <span>Cash On Delivery
+                                <p>Pay With Cash upon delivery</p>
+                            </span>
+                        </label>
+                        <label class="custom-radio" >
+                            <input type="radio" name="payment" value="paypal" >
+                            <span>Paypal
+                                <p>pay with paypal </p>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <button type="button">Place An Order</button>
+            </div>
+        </div>
+    </section>
+    <!-- end checkout -->
+    <!-- start footer  -->
+    <footer>
+        <div class="container">
+            <div class="name-cont">
+                <h2 class="logoName"><span>Vita</span>Fresh</h2>
+                <p class="paragraph">Lorem ipsum, dolor sit amet consectetur</p>
+                <ul class="">
+                    <li><a href="#" class=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </div>
+            <div class="link-item">
+                <h5 class="title">Ultras</h5>
+                <ul class="">
+                    <li ><a href="#">About us</a></li>
+                    <li ><a href="#">Conditions </a></li>
+                    <li ><a href="#">Our Journals</a></li>
+                    <li ><a href="#">Careers</a></li>
+                    <li ><a href="#">Affiliate Programme</a></li>
+                    <li ><a href="#">Ultras Press</a></li>
+                </ul>
+            </div>
+            <div class="link-item">
+                <h5 class="title">Customer Service</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Cookie Guidelines</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                </ul>
+            </div>
+            <div class="link-item">
+                <h5 class="title">Subscribe Us</h5>
+                <p class="paragraph">Subscribe to our newsletter to get updates about our grand offers.</p>
+                <form class="">
+                    <input  class="" type="email" placeholder="Email Address">
+                    <button class="" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="copyright">
+                <p class="paragraph">© 2025 VitaFresh. All rights reserved.</p>
+            </div>
+            <div class="designer">
+                <p class="paragraph">Design by <a href="https://github.com/oumaralhammadi">Omar Alhammadi</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer  -->
+    <SCript src="./assets/js/main.js"></SCript>
+    <SCript src="./assets/js/all.min.js"></SCript>
+    <script src="./assets/js/splide.min.js"></script>
+
+</body>
+</html>

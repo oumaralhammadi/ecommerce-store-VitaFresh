@@ -1,0 +1,190 @@
+{
+  "Fruits": [
+  {
+    "id": 1,
+    "img": "./assets/images/apple.png",
+    "name": "Red Apple",
+    "price": 12.00,
+    "priceDel": 14.00,
+    "discount": 14,
+    "description": "Crisp and sweet red apples, perfect for a healthy snack."
+  },
+  {
+    "id": 2,
+    "img": "./assets/images/banana.png",
+    "name": "Banana",
+    "price": 8.00,
+    "priceDel": 9.50,
+    "discount": 16,
+    "description": "Fresh yellow bananas, rich in potassium and energy."
+  },
+  {
+    "id": 3,
+    "img": "./assets/images/orange.png",
+    "name": "Orange",
+    "price": 10.00,
+    "priceDel": 12.00,
+    "discount": 17,
+    "description": "Juicy oranges full of vitamin C and natural sweetness."
+  },
+  {
+    "id": 4,
+    "img": "./assets/images/strawberry.png",
+    "name": "Strawberry",
+    "price": 18.00,
+    "priceDel": 20.00,
+    "discount": 10,
+    "description": "Delicious strawberries, great for desserts and smoothies."
+  },
+  {
+    "id": 5,
+    "img": "./assets/images/kiwi.png",
+    "name": "Kiwi",
+    "price": 15.00,
+    "priceDel": 17.00,
+    "discount": 12,
+    "description": "Tangy and tropical kiwis packed with nutrients."
+  },
+  {
+    "id": 6,
+    "img": "./assets/images/grapes.png",
+    "name": "Grapes",
+    "price": 14.50,
+    "priceDel": 16.00,
+    "discount": 9,
+    "description": "Sweet and juicy grapes, perfect for snacking."
+  },
+  {
+    "id": 7,
+    "img": "./assets/images/watermelon.png",
+    "name": "Watermelon",
+    "price": 20.00,
+    "priceDel": 23.00,
+    "discount": 13,
+    "description": "Refreshing watermelon slices, ideal for hot days."
+  },
+  {
+    "id": 8,
+    "img": "./assets/images/mango.png",
+    "name": "Mango",
+    "price": 16.00,
+    "priceDel": 18.50,
+    "discount": 14,
+    "description": "Ripe mangoes with a tropical flavor you’ll love."
+  },
+  {
+    "id": 9,
+    "img": "./assets/images/pineapple.png",
+    "name": "Pineapple",
+    "price": 19.00,
+    "priceDel": 22.00,
+    "discount": 14,
+    "description": "Tart and sweet pineapple, perfect for juices or salads."
+  },
+  {
+    "id": 10,
+    "img": "./assets/images/pomegranate.png",
+    "name": "Pomegranate",
+    "price": 17.00,
+    "priceDel": 20.00,      
+    "discount": 15,
+    "description": "Rich in antioxidants, pomegranates are a superfood favorite."
+  }
+  ],
+  
+
+  "vegetables": [
+    {
+      "id": 1,
+      "img": "./assets/images/Lettuce.png",
+      "name": "Lettuce",
+      "price": 10.00,
+      "priceDel": 12.00,
+      "discount": 17,
+      "description": "Fresh and crunchy lettuce, perfect for salads and sandwiches."
+    },
+    {
+      "id": 2,
+      "img": "./assets/images/tomatoes.png",
+      "name": "Tomatoes",
+      "price": 8.50,
+      "priceDel": 10.00,
+      "discount": 15,
+      "description": "Juicy red tomatoes rich in flavor and vitamins."
+    },
+    {
+      "id": 3,
+      "img": "./assets/images/cucumber.png",
+      "name": "Cucumber",
+      "price": 6.00,
+      "priceDel": 7.00,
+      "discount": 14,
+      "description": "Cool and refreshing cucumbers, great for hydration and snacks."
+    },
+    {
+      "id": 4,
+      "img": "./assets/images/carrot.png",
+      "name": "Carrot",
+      "price": 5.00,
+      "priceDel": 6.50,
+      "discount": 23,
+      "description": "Sweet and crunchy carrots packed with vitamin A."
+    },
+    {
+      "id": 5,
+      "img": "./assets/images/broccoli.png",
+      "name": "Broccoli",
+      "price": 14.00,
+      "priceDel": 16.00,
+      "discount": 13,
+      "description": "Nutrient-rich broccoli, perfect for healthy meals and soups."
+    },
+    {
+      "id": 6,
+      "img": "./assets/images/spinach.png",
+      "name": "Spinach",
+      "price": 9.00,
+      "priceDel": 10.50,
+      "discount": 14,
+      "description": "Fresh spinach leaves full of iron and antioxidants."
+    },
+    {
+      "id": 7,
+      "img": "./assets/images/pepper.png",
+      "name": "Green Pepper",
+      "price": 11.00,
+      "priceDel": 13.00,
+      "discount": 15,
+      "description": "Crispy green peppers that add a great taste to any dish."
+    },
+    {
+      "id": 8,
+      "img": "./assets/images/onion.png",
+      "name": "Onion",
+      "price": 4.50,
+      "priceDel": 5.50,
+      "discount": 18,
+      "description": "Aromatic onions that enhance the flavor of all your meals."
+    },
+    {
+      "id": 9,
+      "img": "./assets/images/garlic.png",
+      "name": "Garlic",
+      "price": 7.00,
+      "priceDel": 8.00,
+      "discount": 13,
+      "description": "Fresh garlic bulbs with a strong flavor and many health benefits."
+    },
+    {
+      "id": 10,
+      "img": "./assets/images/potato.png",
+      "name": "Potato",
+      "price": 6.50,
+      "priceDel": 7.50,
+      "discount": 13,
+      "description": "Versatile potatoes ideal for frying, baking, or boiling."
+    }
+  ]
+
+
+}

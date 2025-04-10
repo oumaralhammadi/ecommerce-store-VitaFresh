@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaFresh</title>
+    <!-- Files CSS Custem -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- CDN swiper  -->
+    <link rel="stylesheet" href="./assets/css/splide-core.min.css"/>
+</head>
+<body>
+    <!-- start section header -->
+    <header>
+        <div class="headerTop">
+            <div class="container">
+                <div class="logo">
+                    <h2 class="logoName"><span>Vita</span>Fresh</h2>
+                </div>
+                <div class="inputSearsh">
+                    <select name="" id="">
+                        <option>All Categories</option>
+                        <option>Groceries</option>
+                        <option>Drinks</option>
+                        <option>Chocolates</option>
+                    </select>
+                    <input type="text" name="searsh" placeholder="Search Item">
+                </div>
+                <div class="lang-theme">
+                    <button class="theme-toggle" aria-label="تبديل الثيم">
+                        <i class="fa-solid fa-sun icon sun  srhe"></i>
+                        <i class="fa-solid fa-moon icon moon sdb"></i>
+                    </button>
+                    <div class="chak">
+                        <i onclick="icon_box_Checkout()" id="chak1" class="fa-solid fa-bag-shopping icon"></i>
+                        <i onclick="icon_box_Search()" id="chak2" class="fa-solid fa-search icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="container">
+                <nav>
+                    <a href="index.html">All Products</a>
+                    <a href="#">free delivery</a>
+                    <a href="#">blog</a>
+                    <a href="#">organic</a>
+                    <a href="#">offeds</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ################################################################### -->
+    <!-- start box Checkout  -->
+    <div class="boxCheckout">
+        <div><i onclick="icon_box_Checkout()" id="icon-close" class="fa-solid fa-close icon-close icon"></i></div>
+        <div class="boxCheckout-title">
+            <h4><span>Your cart</span><span class="boxCheckout-title-num">2</span></h4>
+            <ul>
+                <li class="item-shop">
+                    <div class="item-shop-one">
+                        <p>Growers cider</p>
+                        <small>Brief description</small>
+                    </div>
+                    <span>$12</span>
+                </li>
+                <li class="item-shop">
+                    <div class="item-shop-one">
+                        <p>Fresh grapes</p>
+                        <small>Brief description</small>
+                    </div>
+                    <span>$8</span>
+                </li>
+                <li class="total-shop">
+                    <span>Total (USD)</span>
+                    <strong>$20</strong>
+                </li>
+            </ul>
+            <button type="submit">Continue to checkout</button>
+        </div>
+    </div>
+    <!-- end box Checkout  -->
+    <!-- start box Search  -->
+    <div class="boxSearch">
+        <div class=""><i onclick="icon_box_Search()" id="icon-close" class="fa-solid fa-close icon-close icon"></i></div>
+        <div class="form-search">
+            <h4 class=""><span>Search</span></h4>
+            <form role="search" action="" method="get">
+                <input type="email" placeholder="What are you looking for?">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <!-- end box Search  -->
+    <!-- ################################################################### -->
+    <!-- start product -->
+    <section class="product">
+        <div class="container">
+            <div class="item">
+                <div class="image-product">
+                    <img src="./assets/images/Mango.png" alt="">
+                </div>
+                <div class="text-product">
+                    <h2>Mango</h2>
+                    <p>Ripe mangoes with a tropical flavor you’ll love.</p>
+                    <div class="price">
+                        <span>$16.00</span>
+                        <del>$18.50</del>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate officiis doloremque earum sit accusantium commodi recusandae dolorem corrupti repellat.</p>
+                    <div class="azrar">
+                        <button>Buy Now</button>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="descProduct">
+                <h2>Product Description</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora delectus esse dolorem quia consequuntur nulla, explicabo eum. Architecto optio reprehenderit dolores, at corporis error tempora omnis! Porro, quasi molestias?</p>
+                <ul>
+                    <li><i class="fa-solid fa-circle asrbeb"></i>Lorem ipsum dolor sit amet.</li>
+                    <li><i class="fa-solid fa-circle asrbeb"></i>Lorem ipsum dolor sit amet.</li>
+                    <li><i class="fa-solid fa-circle asrbeb"></i>Lorem ipsum dolor sit amet.</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempora delectus esse dolorem quia consequuntur nulla, explicabo eum. Architecto optio reprehenderit dolores, at corporis error tempora omnis! Porro, quasi molestias?</p>
+            </div>
+        </div>
+    </section>
+    <section class="productOther">
+        <div class="container">
+            <h2 class="title-section"><i class="fa-solid fa-forward"></i> Others</h2>
+            <div class="item">
+                <div class="box-item">
+                    <div class="icon_heart "><a href="#" ><i class="fa-regular fa-heart sdsngdn"></i></a></div>
+                    <div class="box_image">
+                        <span class="discount">14%</span>
+                        <img src="./assets/images/apple.png" class="img-product">
+                    </div>
+                    <div class="content">
+                        <a href="product.html" class="product-item-link">Red Apple</a>
+                        <p class="product-item-link">Crisp and sweet red apples, perfect for a healthy snack.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <span>12.00</span>
+                            <del>14.00</del>
+                        </div>
+                        <button>Add</button>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="icon_heart "><a href="#" ><i class="fa-regular fa-heart sdsngdn"></i></a></div>
+                    <div class="box_image">
+                        <span class="discount">16%</span>
+                        <img src="./assets/images/banana.png" class="img-product">
+                    </div>
+                    <div class="content">
+                        <a href="product.html" class="product-item-link">Banana</a>
+                        <p class="product-item-link">Fresh yellow bananas, rich in potassium and energy.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <span>8.00</span>
+                            <del>9.50</del>
+                        </div>
+                        <button>Add</button>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="icon_heart "><a href="#" ><i class="fa-regular fa-heart sdsngdn"></i></a></div>
+                    <div class="box_image">
+                        <span class="discount">17%</span>
+                        <img src="./assets/images/orange.png" class="img-product">
+                    </div>
+                    <div class="content">
+                        <a href="product.html" class="product-item-link">orange</a>
+                        <p class="product-item-link">Juicy oranges full of vitamin C and natural sweetness.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <span>10.00</span>
+                            <del>12.00</del>
+                        </div>
+                        <button>Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end product -->
+    <!-- start footer  -->
+    <footer>
+        <div class="container">
+            <div class="name-cont">
+                <h2 class="logoName"><span>Vita</span>Fresh</h2>
+                <p class="paragraph">Lorem ipsum, dolor sit amet consectetur</p>
+                <ul class="">
+                    <li><a href="#" class=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#" class=""><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </div>
+            <div class="link-item">
+                <h5 class="title">Ultras</h5>
+                <ul class="">
+                    <li ><a href="#">About us</a></li>
+                    <li ><a href="#">Conditions </a></li>
+                    <li ><a href="#">Our Journals</a></li>
+                    <li ><a href="#">Careers</a></li>
+                    <li ><a href="#">Affiliate Programme</a></li>
+                    <li ><a href="#">Ultras Press</a></li>
+                </ul>
+            </div>
+            <div class="link-item">
+                <h5 class="title">Customer Service</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Cookie Guidelines</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                </ul>
+            </div>
+            <div class="link-item">
+                <h5 class="title">Subscribe Us</h5>
+                <p class="paragraph">Subscribe to our newsletter to get updates about our grand offers.</p>
+                <form class="">
+                    <input  class="" type="email" placeholder="Email Address">
+                    <button class="" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="copyright">
+                <p class="paragraph">© 2025 VitaFresh. All rights reserved.</p>
+            </div>
+            <div class="designer">
+                <p class="paragraph">Design by <a href="https://github.com/oumaralhammadi">Omar Alhammadi</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- end footer  -->
+    <SCript src="./assets/js/main.js"></SCript>
+    <SCript src="./assets/js/all.min.js"></SCript>
+    <script src="./assets/js/splide.min.js"></script>
+
+</body>
+</html>
