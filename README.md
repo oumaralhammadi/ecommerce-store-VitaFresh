@@ -1,4 +1,4 @@
-E-Commerce Store - Frontend 
+# E-Commerce Store - Frontend 
 
 📌 Introduction
 
@@ -44,7 +44,7 @@ ecommerce-store/
 
 1. Clone the project
 
-git clone https://github.com/oumaralhammadi/ecommerce-store-VitaFresh.git
+    git clone https://github.com/oumaralhammadi/ecommerce-store-VitaFresh.git
 
 2. Open index.html in your browser.
 
@@ -89,3 +89,6 @@ This project was developed by [Omar Alhammadi]. Feel free to reach out via [http
 📜 License
 
 This project is open-source and can be used for educational and development purposes freely.
+
+---
+**for visited**: https://oumaralhammadi.github.io/ecommerce-store-VitaFresh/
